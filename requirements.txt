@@ -1,4 +1,4 @@
-tensorflow>=2.8
+tensorflow
 keras>=2.8
 numpy
 pandas
