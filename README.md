@@ -22,9 +22,16 @@ The use of MRI scans, which offer high contrast and detailed visualization of so
 *Note - The above codes are written using Python virtual environment version **3.12.1** and supports the latest Python versions. However, lower Python versions may offer more stability compared to the latest ones. Below setup will focus Windows system. And commands to setup may vary for macOS or Linux.*
 
 
+<div> 1. Move to folder (CLI commands)
+```bash
+# If you downloaded the file, just navigate to folder
+# Then press Shift (in Windows) + Left Mouse click
+# Choose Open PowerShell window here option and move on to creating virtual environment
+cd brain_tumor_nn
+```
+</div>
 
-<div> 1. Create a python virtual environment using -
-
+<div> 2. Create a python virtual environment using -
 ```bash
 # Path to installation of particular version of python  may vary
 # I have installed more than one version of python in pyver directory
@@ -32,23 +39,20 @@ The use of MRI scans, which offer high contrast and detailed visualization of so
 C:\Users\<username>\pyver\py3121\python -m venv brainenv
 ```
 </div>
-
-
-<div>2. Activate the virtual environment using -
-
+  
+<div> 3. Activate the virtual environment using -
 ```bash
-brainenv/Scripts/activate
+brainenv\Scripts\activate
 ```
 </div>
 
-<div> 3. Install python packages using - 
-
+<div> 4. Install python packages using - 
 ```bash
 pip install -r requirements.txt
 ```
 </div>
 
-<div> 4. Jupyter Notebook Configuration -
+<div> 5. Jupyter Notebook Configuration -
 
 ```bash
 ipython kernel install --user --name=myenv
@@ -56,7 +60,7 @@ python -m ipykernel install --user --name=myenv
 ```
 </div>
 
-<div> 5. For bash based cell execution inside Jupyter (Optional) -
+<div> 6. For bash based cell execution inside Jupyter (Optional) -
 
 ```bash
 pip install bash_kernel
@@ -64,7 +68,7 @@ python -m bash_kernel.install
 ```
 </div>
 
-<div> 6. Congratulations! Now the environment is ready for execution -
+<div> 7. Congratulations! Now the environment is ready for execution -
 
 ```bash
 jupyter notebook
