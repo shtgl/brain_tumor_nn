@@ -23,15 +23,17 @@ The use of MRI scans, which offer high contrast and detailed visualization of so
 
 
 <div> 1. Move to folder (CLI commands)
+
 ```bash
 # If you downloaded the file, just navigate to folder
-# Then press Shift (in Windows) + Left Mouse click
+# Then press Shift (in Windows) + Right Mouse click
 # Choose Open PowerShell window here option and move on to creating virtual environment
 cd brain_tumor_nn
 ```
 </div>
 
 <div> 2. Create a python virtual environment using -
+
 ```bash
 # Path to installation of particular version of python  may vary
 # I have installed more than one version of python in pyver directory
@@ -41,12 +43,14 @@ C:\Users\<username>\pyver\py3121\python -m venv brainenv
 </div>
   
 <div> 3. Activate the virtual environment using -
+
 ```bash
 brainenv\Scripts\activate
 ```
 </div>
 
 <div> 4. Install python packages using - 
+
 ```bash
 pip install -r requirements.txt
 ```
